@@ -1,0 +1,493 @@
+# depslib dependency file v1.0
+1370210021 source:d:\utenti\salvo\desktop\bouncingballs\main.cpp
+	"SDL/SDL.h"
+	<set>
+	<math.h>
+	<stdio.h>
+	"globalvars.h"
+	"ball.h"
+	"timer.h"
+
+1370715265 source:d:\utenti\salvo\desktop\bouncingballs\ball.cpp
+	"ball.h"
+	"globalvars.h"
+	"SDL/SDL_draw.h"
+	<math.h>
+
+1370715200 d:\utenti\salvo\desktop\bouncingballs\ball.h
+	"SDL/SDL.h"
+	<set>
+	"vector.h"
+	"point.h"
+
+1369940896 d:\utenti\salvo\desktop\bouncingballs\vector.h
+	<math.h>
+
+1369940805 d:\utenti\salvo\desktop\bouncingballs\main.h
+
+1369845901 source:d:\utenti\salvo\desktop\bouncingballs\vector.cpp
+	"vector.h"
+	<math.h>
+
+1369940916 d:\utenti\salvo\desktop\bouncingballs\point.h
+	"vector.h"
+	<math.h>
+
+1369848051 source:d:\utenti\salvo\desktop\bouncingballs\point.cpp
+	"point.h"
+	<math.h>
+
+1369858121 d:\utenti\salvo\desktop\bouncingballs\savefile.h
+
+1370024917 source:d:\utenti\salvo\desktop\bouncingballs\savefile.cpp
+	"savefile.h"
+	"globalvars.h"
+	<fstream>
+	<string>
+
+1370025734 source:d:\utenti\salvo\desktop\bouncingballs\timer.cpp
+	"timer.h"
+	"SDL/SDL.h"
+
+1370024849 d:\utenti\salvo\desktop\bouncingballs\timer.h
+
+1370728389 d:\utenti\salvo\desktop\bouncingballs\globalvars.h
+
+1370092528 source:d:\utenti\salvo\desktop\bouncingballs\globalvars.cpp
+	"globalvars.h"
+	<fstream>
+	<string>
+
+1370724878 source:d:\utenti\salvo\desktop\lavori\bouncingballs\ball.cpp
+	"ball.h"
+	"globalvars.h"
+	"SDL/SDL_draw.h"
+	<math.h>
+
+1370711600 d:\utenti\salvo\desktop\lavori\bouncingballs\ball.h
+	"SDL/SDL.h"
+	<set>
+	"vector.h"
+	"point.h"
+
+1369937296 d:\utenti\salvo\desktop\lavori\bouncingballs\vector.h
+	<math.h>
+
+1369937316 d:\utenti\salvo\desktop\lavori\bouncingballs\point.h
+	"vector.h"
+	<math.h>
+
+1370724789 d:\utenti\salvo\desktop\lavori\bouncingballs\globalvars.h
+
+1370088928 source:d:\utenti\salvo\desktop\lavori\bouncingballs\globalvars.cpp
+	"globalvars.h"
+	<fstream>
+	<string>
+
+1370206421 source:d:\utenti\salvo\desktop\lavori\bouncingballs\main.cpp
+	"SDL/SDL.h"
+	<set>
+	<math.h>
+	<stdio.h>
+	"globalvars.h"
+	"ball.h"
+	"timer.h"
+
+1370021249 d:\utenti\salvo\desktop\lavori\bouncingballs\timer.h
+
+1370022134 source:d:\utenti\salvo\desktop\lavori\bouncingballs\timer.cpp
+	"timer.h"
+	"SDL/SDL.h"
+
+1410627358 source:c:\users\computer\desktop\programmazione\progetti\bouncingballs\ball.cpp
+	"ball.h"
+	"globalvars.h"
+	"SDL_draw.h"
+	<math.h>
+
+1410627391 c:\users\computer\desktop\programmazione\progetti\bouncingballs\ball.h
+	"SDL/SDL.h"
+	<set>
+	"vector.h"
+	"point.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1326114587 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_platform.h
+
+1326114594 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1326114600 c:\users\computer\desktop\programmazione\sdl12\include\sdl\begin_code.h
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\close_code.h
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_keysym.h
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1325742239 c:\users\computer\desktop\programmazione\sdl12\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1369940896 c:\users\computer\desktop\programmazione\progetti\bouncingballs\vector.h
+	<math.h>
+
+1369940916 c:\users\computer\desktop\programmazione\progetti\bouncingballs\point.h
+	"vector.h"
+	<math.h>
+
+1370728389 c:\users\computer\desktop\programmazione\progetti\bouncingballs\globalvars.h
+
+1410627430 c:\users\computer\desktop\programmazione\progetti\sdl_draw-1.2.13\include\sdl_draw.h
+	"SDL/SDL.h"
+	"SDL/begin_code.h"
+	"SDL/close_code.h"
+
+1370092528 source:c:\users\computer\desktop\programmazione\progetti\bouncingballs\globalvars.cpp
+	"globalvars.h"
+	<fstream>
+	<string>
+
+1370210021 source:c:\users\computer\desktop\programmazione\progetti\bouncingballs\main.cpp
+	"SDL/SDL.h"
+	<set>
+	<math.h>
+	<stdio.h>
+	"globalvars.h"
+	"ball.h"
+	"timer.h"
+
+1370024849 c:\users\computer\desktop\programmazione\progetti\bouncingballs\timer.h
+
+1370025734 source:c:\users\computer\desktop\programmazione\progetti\bouncingballs\timer.cpp
+	"timer.h"
+	"SDL/SDL.h"
+
+1410627430 c:\users\computer\desktop\programmazione\progetti\sdl_draw\sdl_draw.h
+	"SDL/SDL.h"
+	"SDL/begin_code.h"
+	"SDL/close_code.h"
+
+1410957157 source:c:\users\computer\desktop\programmazione\prog sdl\bouncingballs\ball.cpp
+	"ball.h"
+	"globalvars.h"
+	"SDL_draw.h"
+	<cstdlib>
+
+1410807166 c:\users\computer\desktop\programmazione\prog sdl\bouncingballs\ball.h
+	"SDL2/SDL.h"
+	<set>
+	"vector.h"
+	"point.h"
+
+1369940896 c:\users\computer\desktop\programmazione\prog sdl\bouncingballs\vector.h
+	<math.h>
+
+1369940916 c:\users\computer\desktop\programmazione\prog sdl\bouncingballs\point.h
+	"vector.h"
+	<math.h>
+
+1410788846 c:\users\computer\desktop\programmazione\prog sdl\bouncingballs\globalvars.h
+
+1410732134 c:\users\computer\desktop\programmazione\prog sdl\sdl2_draw\sdl_draw.h
+	"SDL2/SDL.h"
+	"SDL2/begin_code.h"
+	"SDL2/close_code.h"
+
+1370092528 source:c:\users\computer\desktop\programmazione\prog sdl\bouncingballs\globalvars.cpp
+	"globalvars.h"
+	<fstream>
+	<string>
+
+1410980482 source:c:\users\computer\desktop\programmazione\prog sdl\bouncingballs\main.cpp
+	"SDL2/SDL.h"
+	<set>
+	<cstdio>
+	<cstdlib>
+	"globalvars.h"
+	"ball.h"
+	"timer.h"
+
+1370024849 c:\users\computer\desktop\programmazione\prog sdl\bouncingballs\timer.h
+
+1370025734 source:c:\users\computer\desktop\programmazione\prog sdl\bouncingballs\timer.cpp
+	"timer.h"
+	"SDL/SDL.h"
+
+1410960758 source:c:\users\utente\desktop\programmazione\prog sdl\bouncingballs\ball.cpp
+	"ball.h"
+	"globalvars.h"
+	"SDL_draw.h"
+	<cstdlib>
+
+1410810768 c:\users\utente\desktop\programmazione\prog sdl\bouncingballs\ball.h
+	"SDL2/SDL.h"
+	<set>
+	"vector.h"
+	"point.h"
+
+1369944498 c:\users\utente\desktop\programmazione\prog sdl\bouncingballs\vector.h
+	<math.h>
+
+1369944518 c:\users\utente\desktop\programmazione\prog sdl\bouncingballs\point.h
+	"vector.h"
+	<math.h>
+
+1410792448 c:\users\utente\desktop\programmazione\prog sdl\bouncingballs\globalvars.h
+
+1410735736 c:\users\utente\desktop\programmazione\prog sdl\sdl2_draw\sdl_draw.h
+	"SDL2/SDL.h"
+	"SDL2/begin_code.h"
+	"SDL2/close_code.h"
+
+1370096130 source:c:\users\utente\desktop\programmazione\prog sdl\bouncingballs\globalvars.cpp
+	"globalvars.h"
+	<fstream>
+	<string>
+
+1410984084 source:c:\users\utente\desktop\programmazione\prog sdl\bouncingballs\main.cpp
+	"SDL2/SDL.h"
+	<set>
+	<cstdio>
+	<cstdlib>
+	"globalvars.h"
+	"ball.h"
+	"timer.h"
+
+1370028450 c:\users\utente\desktop\programmazione\prog sdl\bouncingballs\timer.h
+
+1411231284 source:c:\users\utente\desktop\programmazione\prog sdl\bouncingballs\timer.cpp
+	"timer.h"
+	"SDL2/SDL.h"
+
+1416254031 source:d:\utenti\salvo\desktop\programmazione\prog sdl\bouncingballs\ball.cpp
+	"ball.h"
+	"globalvars.h"
+	"SDL_draw.h"
+	<cstdlib>
+
+1416254062 d:\utenti\salvo\desktop\programmazione\prog sdl\bouncingballs\ball.h
+	"SDL2/SDL.h"
+	"vector.h"
+	"point.h"
+
+1369940898 d:\utenti\salvo\desktop\programmazione\prog sdl\bouncingballs\vector.h
+	<math.h>
+
+1369940918 d:\utenti\salvo\desktop\programmazione\prog sdl\bouncingballs\point.h
+	"vector.h"
+	<math.h>
+
+1416339632 d:\utenti\salvo\desktop\programmazione\prog sdl\bouncingballs\globalvars.h
+
+1410732136 d:\utenti\salvo\desktop\programmazione\prog sdl\sdl2_draw\sdl_draw.h
+	"SDL2/SDL.h"
+	"SDL2/begin_code.h"
+	"SDL2/close_code.h"
+
+1416341002 source:d:\utenti\salvo\desktop\programmazione\prog sdl\bouncingballs\globalvars.cpp
+	"globalvars.h"
+	<fstream>
+	<string>
+
+1416339942 source:d:\utenti\salvo\desktop\programmazione\prog sdl\bouncingballs\main.cpp
+	"SDL2/SDL.h"
+	<vector>
+	<cstdio>
+	<cstdlib>
+	"globalvars.h"
+	"ball.h"
+	"orbit.h"
+	"timer.h"
+
+1370024850 d:\utenti\salvo\desktop\programmazione\prog sdl\bouncingballs\timer.h
+
+1411227684 source:d:\utenti\salvo\desktop\programmazione\prog sdl\bouncingballs\timer.cpp
+	"timer.h"
+	"SDL2/SDL.h"
+
+1415532161 d:\utenti\salvo\desktop\programmazione\prog sdl\bouncingballs\orbit.h
+	"ball.h"
+	<list>
+
+1416254516 source:d:\utenti\salvo\desktop\programmazione\prog sdl\bouncingballs\orbit.cpp
+	"orbit.h"
+	"globalvars.h"
+
+1416341009 source:d:\utenti\salvo\desktop\programmazione\prog sdl\bouncingballs\optionsdialog.cpp
+	"globalvars.h"
+	<cstdio>
+	<windows.h>
+
