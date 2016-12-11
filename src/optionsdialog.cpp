@@ -1,3 +1,5 @@
+#ifdef _WIN32
+
 #include "globalvars.h"
 
 #include <cstdio>
@@ -46,3 +48,9 @@ void optionsDialog() {
 #define VAR(type,name,defValue) optionAdd(#type, #name, (type *) &name);
     GLOBAL_VARS
 }
+
+#else
+
+void optionsDialog() {}
+
+#endif

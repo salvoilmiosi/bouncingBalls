@@ -1,24 +1,24 @@
 Palle Rimbalzanti: File di opzioni
 
-SCREEN_W 580
-SCREEN_H 493
+SCREEN_W 640
+SCREEN_H 480
 FPS 60
-SOLAR_SYSTEM 1
-drawOrbits 1
-orbitTickSkip 10
-orbitHistorySize 400
+SOLAR_SYSTEM 0
+drawOrbits 0
+orbitTickSkip 5
+orbitHistorySize 100
 orbitFade 1
-ballNum 20
-minRadius 3
-maxRadius 5
+ballNum 100
+minRadius 10
+maxRadius 40
 sunRadius 50
-maxSpeed 0
+maxSpeed 10
 minDistance 200
 maxDistance 500
-downGravity 0
-newtonGravity 0.03
+downGravity 0.2
+newtonGravity 0
 restitution 0.8
-screenBounce 0
+screenBounce 1
 loopBack 0
 enableDrag 1
 dragForce 0.5
