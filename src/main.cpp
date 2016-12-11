@@ -72,7 +72,7 @@ ball *addPlanet(ball *sun, double distance, int radius, double angle) {
 
     double velocity = -sqrt(newtonGravity * sun->getMass() / distance);
 
-    angle += M_PI_2;
+    angle += M_PI / 2.0;
 
     planet->velocity = sun->velocity;
     planet->velocity.x += cos(angle) * velocity;

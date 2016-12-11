@@ -9,11 +9,14 @@ INCLUDE = include
 BIN_DIR = bin
 OBJ_DIR = obj
 
+MAKE = make
+
 OUT_BIN = bouncingBalls
 
 ifeq ($(OS),Windows_NT)
 	LDFLAGS += -mwindows -lmingw32 -lSDL2main
 	OUT_BIN := $(OUT_BIN).exe
+	MAKE := mingw32-make
 endif
 
 $(shell mkdir -p $(BIN_DIR) >/dev/null)
@@ -21,7 +24,8 @@ $(shell mkdir -p $(OBJ_DIR) >/dev/null)
 
 DEPFLAGS = -MT $@ -MMD -MP -MF $(OBJ_DIR)/$*.Td
 
-SDL_draw = SDL_draw-1.2.13/bin/libSDL_draw.a
+SDL_draw_dir = SDL_draw-1.2.13
+SDL_draw = $(SDL_draw_dir)/lib/libSDL_draw.a
 
 SOURCES = $(wildcard src/*.cpp)
 OBJECTS = $(patsubst src/%,$(OBJ_DIR)/%.o,$(basename $(SOURCES))) $(SDL_draw)
@@ -31,12 +35,13 @@ all: $(BIN_DIR)/$(OUT_BIN)
 clean:
 	rm -rf $(BIN_DIR)
 	rm -rf $(OBJ_DIR)
+	$(MAKE) -C $(SDL_draw_dir) clean
 
 $(BIN_DIR)/$(OUT_BIN): $(OBJECTS)
 	$(LD) -o $(BIN_DIR)/$(OUT_BIN) $(OBJECTS) $(LDFLAGS) $(LIBS)
 
 $(SDL_draw):
-	make -C SDL_draw-1.2.13
+	$(MAKE) -C $(SDL_draw_dir)
 
 $(OBJ_DIR)/%.o : src/%.cpp
 $(OBJ_DIR)/%.o : src/%.cpp $(OBJ_DIR)/%.d
