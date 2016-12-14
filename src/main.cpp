@@ -323,7 +323,8 @@ void handleEvent(SDL_Event& event) {
 }
 
 int main (int argc, char** argv) {
-    readOptions();
+    const char *dir = argc > 0 ? argv[0] : nullptr;
+    readOptions(dir);
 
     if (!init()) return 1;
 
@@ -359,6 +360,6 @@ int main (int argc, char** argv) {
     }
 
 	cleanUp();
-    saveOptions();
+    saveOptions(dir);
     return 0;
 }

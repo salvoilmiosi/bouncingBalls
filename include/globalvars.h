@@ -33,8 +33,8 @@ GLOBAL_VARS
 static const char *const OPTIONS_FILENAME = "options.txt";
 static const char *const OPTIONS_FIRST_LINE = "Palle Rimbalzanti: File di opzioni";
 
-void readOptions();
-void saveOptions();
+void readOptions(const char *dir = nullptr);
+void saveOptions(const char *dir = nullptr);
 void optionsDialog();
 
 #endif // __MAIN_H

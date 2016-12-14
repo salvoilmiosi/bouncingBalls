@@ -7,8 +7,18 @@
 #define VAR(type, name, defValue) type name = defValue;
 GLOBAL_VARS
 
-void readOptions() {
-    std::ifstream ifs(OPTIONS_FILENAME);
+static std::string getOptionsPath(const char *dir) {
+    std::string path;
+    if (dir) {
+        path = dir;
+        path = path.substr(0, 1 + path.find_last_of("\\/"));
+    }
+    path += OPTIONS_FILENAME;
+    return path;
+}
+
+void readOptions(const char *dir) {
+    std::ifstream ifs(getOptionsPath(dir));
     std::string str;
 
     std::getline(ifs, str);
@@ -23,8 +33,8 @@ void readOptions() {
     }
 }
 
-void saveOptions() {
-    std::ofstream ofs(OPTIONS_FILENAME, std::ofstream::trunc|std::ofstream::out);
+void saveOptions(const char *dir) {
+    std::ofstream ofs(getOptionsPath(dir), std::ofstream::trunc|std::ofstream::out);
 
     ofs << OPTIONS_FIRST_LINE << "\n\n";
 #undef VAR

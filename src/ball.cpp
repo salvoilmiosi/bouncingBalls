@@ -189,7 +189,7 @@ void ball::resolveCollision(ball *b) {
 
     if (d == 0) {
         // sono nello stesso posto, li separo in angoli casuali
-        double angle = (rand() % 1000) / 500.0 * M_PI;
+        double angle = rand() / (double)RAND_MAX * M_PI;
         vector2d moveV(cos(angle), sin(angle));
         position += moveV * radius;
         b->position -= moveV * b->radius;

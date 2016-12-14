@@ -1,3 +1,4 @@
 bin/bouncingBalls
 *.o
 *.a
+options.txt
