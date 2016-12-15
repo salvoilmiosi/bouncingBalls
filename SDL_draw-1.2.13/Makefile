@@ -3,14 +3,21 @@ AR = ar
 
 CFLAGS = -g -Wall
 
-OUT = bin/libSDL_draw.a
+OUT = lib/libSDL_draw.a
 
 OBJECTS = obj/SDL_draw.o
 SOURCES = $(wildcard src/*.c)
 
 INCLUDE = include
 
+$(shell mkdir -p lib >/dev/null)
+$(shell mkdir -p obj >/dev/null)
+
 all: $(OUT)
+
+clean:
+	rm -rf lib
+	rm -rf obj
 
 $(OUT): $(OBJECTS)
 	$(AR) rcs $(OUT) $(OBJECTS)

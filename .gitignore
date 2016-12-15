@@ -1,4 +1,6 @@
 bin/bouncingBalls
+options.txt
 *.o
 *.a
-options.txt
+*.exe
+*.d
