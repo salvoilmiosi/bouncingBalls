@@ -3,7 +3,7 @@ LD = g++
 CFLAGS = -g -Wall --std=c++11
 
 LDFLAGS =
-LIBS = -lSDL2 -lSDL2_net -lSDL2_image -lSDL2_mixer -lSDL2_ttf
+LIBS = -lSDL2
 
 INCLUDE = include
 BIN_DIR = bin
